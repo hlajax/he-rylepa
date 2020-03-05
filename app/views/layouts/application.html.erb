@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= display_meta_tags site: 'Henry Lepa' %>
+    <%= csrf_meta_tags %>
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Henry Lepa | Formateur, Product Manager, UI / UX Designer.">
+    <meta property="og:description" content="Henry Lepa, auteur, entrepreneur coach et formateur. Ma mission est de vous aider à apprendre à apprendre en utilisant la pédagogie inversée à distance ou en présentiel.">
+    <meta property="og:url" content="http://henrylepa.site/">
+    <meta property="og:site_name" content="Henry Lepa">
+    <meta property="og:image" content="https://res.cloudinary.com/aseed/image/upload/v1583382403/hlepa_crfbav.jpg">
+    <meta property="og:image:width" content="960">
+    <meta property="og:image:height" content="960">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Henry Lepa, auteur, entrepreneur coach et formateur. Ma mission est de vous aider à apprendre à apprendre en utilisant la pédagogie inversée à distance ou en présentiel.">
+    <meta name="twitter:title" content="Henry Lepa | Formateur, Product Manager, UI / UX Designer.">
+    <meta name="twitter:image" content="https://res.cloudinary.com/aseed/image/upload/v1583382403/hlepa_crfbav.jpg">
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+
+  </body>
+</html>
