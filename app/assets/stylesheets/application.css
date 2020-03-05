@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= bootstrap
  */
  body{
  	background-color: #202125;
